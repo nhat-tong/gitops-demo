@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: .*.yaml
+    encrypted_regex: ^(data|stringData)$
+    azure_keyvault: https://gitopsdemokeyvault2022.vault.azure.net/keys/sops-key/fadc1407f8e24911bb4b2951371fc2cf

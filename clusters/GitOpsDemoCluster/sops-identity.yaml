@@ -16,4 +16,4 @@ metadata:
   namespace: flux-system
 spec:
   azureIdentity: sops-akv-decryptor
-  selector: sops-akv-decryptor  # kustomize-controller label will match this name
+  selector: sops-akv-decryptor  # kustomize-controller-pod label will match this name
